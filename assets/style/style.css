@@ -49,4 +49,57 @@ p, h1, h2, h3, h4, h5, h6 {
 */
 #root, #__next {
   isolation: isolate;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right top, #707390, #9080a1, #b28dac, #d39ab3, #f1aab4);
+  height: 100vh;
+  align-items: center;
+  padding: 5%;
+  position: relative;
+}
+body header {
+  font-variant: small-caps;
+  color: #707390;
+  border: 2px solid #707390;
+  background-color: #FDE3D4;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 5%;
+  padding: 2%;
+}
+body main {
+  width: 80%;
+}
+body main .todolist {
+  border: 2px solid #707390;
+  background-color: #FDE3D4;
+  margin-bottom: 5%;
+  padding: 2%;
+}
+body main .todolist h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #707390;
+}
+body main .addtasks {
+  border: 2px solid #707390;
+  background-color: #FDE3D4;
+  margin-bottom: 5%;
+  padding: 2%;
+}
+body main .addtasks h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #707390;
+}
+body footer {
+  width: 80%;
+  position: absolute;
+  bottom: 2%;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

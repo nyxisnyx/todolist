@@ -56,4 +56,63 @@ $mediumpurple: #A6ACC0;
     isolation: isolate;
   }
 
-  
+
+  body {
+    display:flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right top, #707390, #9080a1, #b28dac, #d39ab3, #f1aab4);
+    height:100vh;
+    align-items: center;
+    padding:5%;
+    position:relative;
+    
+    header {
+      font-variant: small-caps;
+      color:$darkpurple;
+      border: 2px solid $darkpurple;
+      background-color: $lightcream;
+      font-size:1rem;
+      line-height:1.8rem;
+      text-align:center;
+      width: 80%;
+      margin-bottom:5%;
+      padding:2%;
+    }
+
+    main {
+      width: 80%;
+
+      .todolist {
+        border: 2px solid $darkpurple;
+        background-color: $lightcream;
+        margin-bottom:5%;
+        padding:2%;
+
+        h2 {
+          font-size:1.2rem;
+          text-align:center;
+          color:$darkpurple;
+        }
+      }
+
+      .addtasks {
+        border: 2px solid $darkpurple;
+        background-color: $lightcream;
+        margin-bottom:5%;
+        padding:2%;
+
+        h2 {
+          font-size:1.2rem;
+          text-align:center;
+          color:$darkpurple;
+        }
+      }
+    }
+
+    footer {
+      width: 80%;
+      position:absolute;
+      bottom:2%;
+      text-align:center;
+    }
+  }
